@@ -1,6 +1,51 @@
-.lol {
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500");
+.lefse {
+  margin-top: 20px;
+  width: 70vh;
+  height: 70vh;
+}
+
+.tacoContainer {
+  z-index: 1;
   display: flex;
   justify-content: center;
-  margin-top: 5rem;
-  font-size: 5rem;
+}
+
+.tacoImages {
+  display: flex;
+  flex-direction: row;
+}
+
+.tacoImagesContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.ingredients {
+  padding: 10px;
+}
+
+#showOrHideButton {
+  font-family: "Montserrat", sans-serif;
+  width: 200px;
+  height: 100px;
+  font-size: 1.5rem;
+  border-radius: 20px;
+  margin-top: 15px;
+}
+
+#showOrHideButton:hover {
+  background-color: bisque;
+  cursor: pointer;
+}
+
+#showOrHideButton:active {
+  color: rgb(207, 41, 41);
+}
+
+.buttonDiv {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
 }
