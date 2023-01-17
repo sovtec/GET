@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:500");
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .lefse {
   margin-top: 20px;
   width: 70vh;
@@ -44,8 +50,4 @@
   color: rgb(207, 41, 41);
 }
 
-.buttonDiv {
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-}
+
