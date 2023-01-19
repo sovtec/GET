@@ -6,37 +6,39 @@ body {
   align-items: center;
 }
 .lefse {
-  margin-top: 20px;
-  width: 70vh;
-  height: 70vh;
+  margin-top: 1px;
+  width: 62vh;
+  height: 62vh;
 }
 
 .tacoContainer {
-  z-index: 1;
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-column: 2/3;
 }
 
 .tacoImages {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .tacoImagesContainer {
   display: flex;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 10px;
+  align-self: flex-end;
 }
 
-.ingredients {
+.ingredients img {
+  width: 70%;
   padding: 10px;
 }
 
 #showOrHideButton {
   font-family: "Montserrat", sans-serif;
   width: 200px;
-  height: 100px;
-  font-size: 1.5rem;
+  height: 50px;
+  font-size: 1rem;
   border-radius: 20px;
   margin-top: 15px;
 }
@@ -48,4 +50,21 @@ body {
 
 #showOrHideButton:active {
   color: rgb(207, 41, 41);
+}
+
+.header {
+  text-align: center;
+  font-size: 200%;
+  color: rgb(199, 42, 42);
+  border: 2px solid black;
+  border-radius: 20%;
+  padding: 5px;
+}
+
+.newImg {
+  position: relative;
+  top: 10rem;
+  right: 40rem;
+  width: 100px;
+  height: 100px;
 }
