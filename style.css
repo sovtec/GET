@@ -29,7 +29,7 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 10px;
-  align-self: flex-end;
+
 }
 
 .ingredients img {
@@ -69,10 +69,12 @@ body {
   right: 40rem;
   width: 100px;
   height: 100px;
+  
 }
 .chosenIngridients{
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 .hidden{
   display: none;
