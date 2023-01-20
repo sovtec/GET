@@ -15,6 +15,7 @@
 // Funksjoner
 
 const tacoContainer = document.getElementById("tacoContainer");
+const chosenIngridients= document.getElementById("chosenIngridients")
 let chosenOrNot = false;
 function selectImg(img) {
   let newDiv = document.createElement("img");
@@ -22,7 +23,7 @@ function selectImg(img) {
   newDiv.src = img.src;
   console.log(img.src);
   //   let newContent= document.createElement("img")
-  tacoContainer.appendChild(newDiv);
+  chosenIngridients.appendChild(newDiv);
 
   createElement = newDiv;
 }
@@ -43,10 +44,13 @@ function showOrHideInv() {
 function rollUp() {
   if (chosenOrNot === true) {
     document.getElementById("openTaco").src = "img/closedTaco.png";
+    chosenIngridients.classList.add("hidden")
   } else if (chosenOrNot === false) {
     document.getElementById("openTaco").src =
       "img/kisspng-roti-piadina-mexican-cuisine-corn-tortilla-stock-p-5ae39b03dcdd66.1788902215248657959047.png";
+      chosenIngridients.classList.remove("hidden")
   }
+  
 }
 
 // function selectImg(img) {

@@ -9,11 +9,14 @@ body {
   margin-top: 1px;
   width: 62vh;
   height: 62vh;
+  display: flex;
+  align-self: center;
 }
 
 .tacoContainer {
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 
 .tacoImages {
@@ -62,9 +65,15 @@ body {
 }
 
 .newImg {
-  position: relative;
   top: 10rem;
   right: 40rem;
   width: 100px;
   height: 100px;
+}
+.chosenIngridients{
+  display: flex;
+  flex-direction: row;
+}
+.hidden{
+  display: none;
 }
