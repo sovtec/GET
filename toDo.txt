@@ -1,0 +1,3 @@
+- holde alle bilder innenfor lefse
+
+- gjemme ingredients når lefse er lukket
